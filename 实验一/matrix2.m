@@ -1,0 +1,15 @@
+%特殊矩阵的创建
+%单位矩阵
+A=eye(4);
+%转智矩阵
+B=A';
+%随机矩阵
+C=rand(7);
+%正态分布矩阵
+D=randn(1,10);
+%魔方矩阵
+E=magic(5);
+%Hibert矩阵
+F=hilb(4);
+%Topelitz矩阵
+G=toeplitz(1:6);
